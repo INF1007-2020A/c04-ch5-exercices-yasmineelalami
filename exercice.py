@@ -6,7 +6,11 @@ from typing import List
 
 
 def convert_to_absolute(number: float) -> float:
-    return 0
+    if number<0:
+        number=-number
+    else:
+        pass
+    return number
 
 
 def use_prefixes() -> List[str]:
