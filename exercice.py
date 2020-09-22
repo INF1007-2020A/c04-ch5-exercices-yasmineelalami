@@ -14,9 +14,12 @@ def convert_to_absolute(number: float) -> float:
 
 
 def use_prefixes() -> List[str]:
+    liste=[]
     prefixes, suffixe = 'JKLMNOPQ', 'ack'
+    for i in prefixes:
+        liste.append(i+suffixe)
 
-    return [""]
+    return liste
 
 
 def prime_integer_summation() -> int:
